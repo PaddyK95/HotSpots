@@ -2,19 +2,18 @@
 <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#ffa033"
-    xmlns:app="http://schemas.android.com/apk/res-auto">
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:background="#ffa033">
 
 
     <ImageView
         android:id="@+id/imageView2"
-        android:layout_width="185dp"
-        android:layout_height="197dp"
-        android:layout_alignStart="@+id/emailTf"
+        android:layout_width="323dp"
+        android:layout_height="218dp"
         android:layout_alignParentTop="true"
-        android:layout_marginStart="56dp"
-        android:layout_marginTop="28dp"
-        android:contentDescription="logo"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="4dp"
+        android:contentDescription="@string/desc"
         app:srcCompat="@drawable/logo" />
 
     <EditText
@@ -22,15 +21,15 @@
         android:layout_width="wrap_content"
         android:layout_height="50dp"
         android:layout_above="@+id/passwordTf"
-        android:layout_alignParentStart="true"
-        android:layout_marginStart="69dp"
-        android:layout_marginBottom="22dp"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="17dp"
         android:background="@layout/login_tf"
         android:ems="10"
-        android:hint="email"
+        android:hint="@string/email"
         android:inputType="textEmailAddress"
         android:textAlignment="center"
-        android:textColorHint="@color/colorWhite" />
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
 
     <EditText
         android:id="@+id/passwordTf"
@@ -38,28 +37,55 @@
         android:layout_height="50dp"
         android:layout_alignParentBottom="true"
         android:layout_centerHorizontal="true"
-        android:layout_marginBottom="134dp"
+        android:layout_marginBottom="131dp"
         android:background="@layout/login_tf"
         android:ems="10"
-        android:hint="password"
+        android:hint="@string/pass"
         android:inputType="textPassword"
         android:textAlignment="center"
-        android:textColorHint="@color/colorWhite" />
+        android:textColor="#FFFFFF"
+        android:textColorHint="#FFFFFF" />
 
     <Button
         android:id="@+id/registerBtn"
-        android:layout_width="212dp"
+        android:layout_width="251dp"
         android:layout_height="wrap_content"
         android:layout_alignStart="@+id/emailTf"
         android:layout_alignParentBottom="true"
-        android:layout_marginStart="20dp"
-        android:layout_marginBottom="62dp"
+        android:layout_marginStart="2dp"
+        android:layout_marginBottom="73dp"
         android:background="@color/colorRed"
         android:text="Register"
         android:textColor="@color/colorWhite" />
 
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="189dp"
+        android:text="HotSpots"
+        android:textColor="#FFFFFF"
+        android:textSize="28sp" />
 
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/emailTf"
+        android:layout_alignParentBottom="true"
+        android:layout_marginBottom="44dp"
+        android:text="Already have an account?"
+        android:textSize="17sp" />
 
-
+    <TextView
+        android:id="@+id/textView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignEnd="@+id/emailTf"
+        android:layout_alignBottom="@+id/textView3"
+        android:text="Sign In"
+        android:textSize="17sp" />
 
 </RelativeLayout>

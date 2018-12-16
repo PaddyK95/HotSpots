@@ -1,0 +1,55 @@
+{
+  "project_info": {
+    "project_number": "167450744580",
+    "firebase_url": "https://hotspots-ba3c3.firebaseio.com",
+    "project_id": "hotspots-ba3c3",
+    "storage_bucket": "hotspots-ba3c3.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:167450744580:android:1edf3dca16346e16",
+        "android_client_info": {
+          "package_name": "x14533687.hotspots"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "167450744580-oee6mbncc6dt9dpl12dco6nl1aroe203.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "x14533687.hotspots",
+            "certificate_hash": "956f3380f33f3680585351a164a5d392e7064940"
+          }
+        },
+        {
+          "client_id": "167450744580-3r0rl305gc2p3todg6hbmncquuuckeqi.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAsWbZqsW9_MkH6gay6J6rYo9QC0U6N3IQ"
+        }
+      ],
+      "services": {
+        "analytics_service": {
+          "status": 1
+        },
+        "appinvite_service": {
+          "status": 2,
+          "other_platform_oauth_client": [
+            {
+              "client_id": "167450744580-3r0rl305gc2p3todg6hbmncquuuckeqi.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        },
+        "ads_service": {
+          "status": 2
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

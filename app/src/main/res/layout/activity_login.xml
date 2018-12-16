@@ -37,35 +37,38 @@
 
     <Button
         android:id="@+id/loginBtn"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
+        android:layout_width="123dp"
+        android:layout_height="47dp"
 
         android:layout_alignEnd="@+id/emailTf"
         android:layout_alignParentBottom="true"
+        android:layout_marginEnd="128dp"
         android:layout_marginBottom="94dp"
         android:background="#ff6868"
         android:text="@string/login"
         android:textColor="@color/colorWhite" />
 
-    <TextView
-        android:id="@+id/RegisterTV"
-        android:layout_width="wrap_content"
-        android:layout_height="wrap_content"
-        android:layout_alignStart="@+id/passwordTf"
-        android:layout_alignTop="@+id/loginBtn"
-        android:layout_marginStart="8dp"
-        android:layout_marginTop="13dp"
-        android:text="Register here"
-        android:textSize="20dp" />
+    <Button
+        android:id="@+id/registerBtn"
+        android:layout_width="122dp"
+        android:layout_height="46dp"
+
+        android:layout_alignEnd="@+id/emailTf"
+        android:layout_alignParentBottom="true"
+        android:layout_marginEnd="-4dp"
+        android:layout_marginBottom="95dp"
+        android:background="@color/colorSecondary"
+        android:text="@string/register"
+        android:textColor="@color/colorWhite" />
 
     <ImageView
-        android:id="@+id/animLogo"
+        android:id="@+id/Logo"
         android:layout_width="152dp"
         android:layout_height="175dp"
         android:layout_alignParentTop="true"
         android:layout_alignParentEnd="true"
-        android:layout_marginTop="14dp"
-        android:layout_marginEnd="98dp"
+        android:layout_marginTop="17dp"
+        android:layout_marginEnd="115dp"
         app:srcCompat="@drawable/logo" />
 
     <TextView
@@ -75,9 +78,20 @@
         android:layout_alignParentTop="true"
         android:layout_centerHorizontal="true"
         android:layout_marginTop="161dp"
-        android:text="HotSpots"
+        android:text="@string/app_name"
         android:textColor="#FFFFFF"
         android:textSize="28sp" />
+
+    <TextView
+        android:id="@+id/forgotTV"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/emailTf"
+        android:layout_alignParentBottom="true"
+        android:layout_marginStart="91dp"
+        android:layout_marginBottom="59dp"
+        android:text="Forgot Password?"
+        android:textSize="20sp" />
 
 
 </RelativeLayout>

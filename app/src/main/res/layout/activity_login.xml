@@ -31,6 +31,7 @@
         android:background="@layout/login_tf"
         android:ems="10"
         android:hint="password"
+        android:textColor="#FFFFFF"
         android:inputType="textPassword"
         android:textAlignment="center"
         android:textColorHint="@color/colorWhite" />
